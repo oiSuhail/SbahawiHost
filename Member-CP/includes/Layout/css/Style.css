@@ -1,0 +1,303 @@
+/* navbar */
+.dropdown-menu {
+    right: 0 !important;
+    left: auto !important;
+}
+
+.navbar-Line {
+    width: 5px;
+    background-color: #913a40;
+}
+
+.navbar-mLine {
+    width: 4px;
+    background-color: #EEE;
+}
+
+.navbar-btn {
+    margin: 0 2px 0 2px;
+    margin-bottom: -10px;
+}
+
+.navbar .user-name {
+    color: #AAA;
+    margin-left: -8px;
+    margin-top: !important;
+}
+
+.navbar .user-name:hover {
+    color: #FFF;
+}
+
+.navbar .dropdown a {
+    text-align: right;
+    direction: ltr;
+}
+
+.navbar .user-img {
+    margin-left: 40px;
+    margin-right: 6px;
+    width: 25px;
+    height: 25px;
+    margin-top: 11px;
+}
+
+
+
+/* Member CP */
+.state {
+    color: white;
+    padding: 18px;
+    border-radius: 8px;
+    width: 250px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.state a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 48px;
+}
+
+.state .lead {
+    margin-bottom: -4px;
+}
+
+.members-box {
+    background-color: #16a085;
+}
+
+.tickets-box {
+    background-color: #16a085;
+}
+
+.servers-box {
+    background-color: #2ecc71;
+}
+
+.ticket-pending {
+    background-color: #c0392b;
+}
+
+.table {
+    text-align: right;
+}
+
+.tickets-btn {
+    margin: 0 2px 0 2px;
+    height: 35px;
+    line-height: 1.1;
+}
+
+.edit-btn {
+    margin: 0 2px 0 2px;
+    height: 35px;
+    line-height: 1.1;
+    margin-top: 10px;
+}
+
+.ticket-title {
+    overflow-x: scroll;
+    max-width: 200px;
+}
+
+.ViewTicketHeader {
+    color: #a2585d;
+    border-bottom: 2px solid #a2585d;
+    border-width: 2px;
+    padding: 10px;
+}
+
+.ViewTicketBody {
+    direction: rtl;
+    margin-top: -8;
+}
+
+.ViewTicketBody h4 {
+    margin-top: -16px;
+    padding: 16px;
+}
+
+.ViewTicketBodyDes {
+    padding: 20px;
+    margin-bottom: 18px;
+    border-right: 3px #999 solid;
+}
+
+.ticketDescribe {
+    background-color: #f9f9f9;
+    border: 1px #a2585d solid;
+    border-radius: 5px;
+    margin-right: 10px;
+    word-break: break-word;
+}
+
+.ticketDescribeBody {
+    padding: 12px;
+}
+
+.ticketDescribeInfo {
+    background-color: #a2585d;
+    color: #FFF;
+    padding: 8px 12px 11px;
+    display: flex;
+}
+
+.ticketDescribeInfo p {
+    margin: 0 0 0 20px;
+}
+
+.ticketCommentInfo {
+    background-color: #b5797e;
+    color: #FFF;
+    padding: 8px 12px 11px;
+    display: flex;
+}
+
+.ticketCommentBody {
+    padding: 12px;
+}
+
+.ticketCommentInfo p {
+    margin: 0 0 0 20px;
+}
+
+.CommentDescribe {
+    background-color: #faf9f7;
+    border-bottom: 1px solid #888;
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-top: 16px;
+    word-break: break-word;
+}
+
+.add-comment-btn {
+    margin-right: 10px;
+    margin-top: 12px;
+}
+
+.addComment {
+    background-color: #faf9f7;
+    border: 1px #eee solid;
+    border-radius: 8px;
+    padding: 12px;
+    margin-right: 10px;
+    word-break: break-word;
+    margin-top: 10px;
+}
+
+.addComment .btn {
+    margin-top: 6px;
+    width: 100px;
+}
+
+.addComment .form-control-file {
+    width: 300px;
+    display: inline-block;
+    margin: 5px 2px 0 0;
+}
+
+.addComment form {
+    margin-bottom: 0;
+}
+
+.info-list {
+    background-color: #FFF;
+    border-radius: 4px;
+    padding: 12px;
+    border: 2px solid #eee;
+    margin-top: 65px;
+    position: fixed;
+    direction: rtl;
+    text-align: right;
+}
+
+.info-list:hover {
+    background-color: #f9f9f9;
+    transition: background-color .5s;
+    -webkit-transition: background-color .5s;
+    -moz-transition: background-color .5s;
+    -o-transition: background-color .5s;
+}
+
+.info-header {
+    border-radius: 3px;
+    padding: 4px;
+}
+
+.info-list ul {
+    padding-right: 0;
+}
+
+.info-list .info-header .lead {
+    font-weight: 400;
+}
+
+.info-body span {
+    color: #999;
+}
+
+/* footer */
+.footer {
+    margin-top: 280px;
+    background-color: #212529;
+    color: #AAA;
+    padding: 20px;
+    text-align: right;
+    bottom: 0;
+}
+
+.footer-cr {
+    padding: 6px;
+    background-color: #9a9a11;
+}
+
+.footer-cr p {
+    margin-bottom: 0;
+}
+
+.contact-us .Social-icons {
+    margin: 4px 2px 0 2px;
+}
+
+.pay .pay-icons {
+    margin: 4px 2px 0 2px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #AAA;
+}
+
+.footer a:hover {
+    color: #EEE;
+}
+
+.Close-tag { 
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 540px;
+    font-weight: 500;
+    color: #FFF;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+/* tickets */
+.tickets-table {
+    margin-top: 30px;
+}
+
+.addForm {
+    margin-top: 30px;
+    text-align: right;
+}
+
+.addForm select {
+    text-align: right;
+}
+
+.addForm input {
+    direction: rtl;
+}
